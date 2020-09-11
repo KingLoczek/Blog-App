@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import './style.css';
 import Sear from '../../searchIcon/searchIcon.png';
+import {NavLink} from 'react-router-dom';
 
 function Navi() {
 
@@ -20,10 +21,10 @@ function Navi() {
     return (
        <div className="navi">
          <ul className="naviMenu">
-             <li><a href="#">Home</a></li>
-             <li><a href="#">About</a></li>
-             <li><a href="#">Posts</a></li>
-             <li><a href="#">Contact</a></li>
+             <li><NavLink to="/">Home</NavLink></li>
+             <li><NavLink to="/about">About</NavLink></li>
+             <li><NavLink to="/post">Posts</NavLink></li>
+             <li><NavLink to="/contact">Contact</NavLink></li>
          </ul>
          <div className="search">
            <form onSubmit={submitSearch}>

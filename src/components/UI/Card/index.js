@@ -1,8 +1,9 @@
 import React from 'react';
 import './style.css';
-function Card(_props) {
+
+const Card=(_props)=> {
     return (
-        <div className="card">
+        <div className="card" style={{width:_props.width ? _props.width:'100%'}}>
             {_props.children}
         </div>
     )
