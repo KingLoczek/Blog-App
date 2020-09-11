@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './style.css';
-import Logo from 'C:/Users/Admin/my-app/src/pictures/logo.jpg';
-import Fb from 'C:/Users/Admin/my-app/src/pictures/fb.png';
-import Yt from 'C:/Users/Admin/my-app/src/pictures/youtube.png';
-import Ig from 'C:/Users/Admin/my-app/src/pictures/ig.png';
-import Pt from 'C:/Users/Admin/my-app/src/pictures/pin.png';
-import Tt from 'C:/Users/Admin/my-app/src/pictures/twit.png';
-import Tw from 'C:/Users/Admin/my-app/src/pictures/twitch.png';
+import Logo from '../../pictures/logo.jpg';
+import Fb from '../../pictures/fb.png';
+import Yt from '../../pictures/youtube.png';
+import Ig from '../../pictures/ig.png';
+import Pt from '../../pictures/pin.png';
+import Tt from '../../pictures/twit.png';
+import Tw from '../../pictures/twitch.png';
 
 function Header(_props) {
     return (
