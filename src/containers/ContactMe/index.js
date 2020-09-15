@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ContactForm from '../../components/Contact';
+import Sidebar from '../../components/Sidebar';
 
 function Contact() {
     return (
-        <div>Contact</div>
+        <section className="container">
+        <ContactForm />
+        <Sidebar />
+        </section>
     )
 }
 
