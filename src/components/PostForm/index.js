@@ -27,7 +27,6 @@ import "./style.css";
       const post = {title, author, text };
       addPost(post);
     };
-
     return (
       <div>
         {posts.length === 0 && <p>No posts.</p>}
@@ -59,7 +58,6 @@ import "./style.css";
               value={text}
               onChange={(e) => setText(e.target.value)}
             />
-
           </p>
           <p>
             <button onClick={onAddButtonClick}>Add</button>

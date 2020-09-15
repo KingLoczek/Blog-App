@@ -1,7 +1,7 @@
 import React from 'react';
+import PostForm from '../PostForm';
 import Card from '../UI/Card';
 import './style.css';
-import PostForm from '../PostForm';
 
 function BlogPost() {
     return (
