@@ -1,7 +1,7 @@
 import React from 'react';
+import PostForm from '../PostForm';
 import Card from '../UI/Card';
 import './style.css';
-import Prog from '../../blogpictures/prog1.png';
 
 function BlogPost() {
     return (
@@ -9,11 +9,7 @@ function BlogPost() {
             <Card>
                 <div className="blogHeader">
                 <span className="blogCategory">Featured</span>
-                <h1 className="postTitle">Can anyone start programming?</h1>
-                <span className="postedBy">posted on September 11, 2020 by Konrad Zarzecki </span>
-                </div>
-                <div className="postImage">
-                    <img src={Prog} alt="PostImage"/>
+                <PostForm />
                 </div>
             </Card>
         </div>
