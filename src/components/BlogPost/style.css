@@ -4,13 +4,6 @@
 .blogHeader{
     text-align: center;
 }
-.postTitle{
-    letter-spacing: 0.5px;
-    text-transform: capitalize;
-    font-size: 30px;
-    margin:0;
-    font-weight: 600;
-}
 .blogCategory{
     display: block;
     font-size: 20px;

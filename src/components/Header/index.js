@@ -8,16 +8,16 @@ import Ig from '../../pictures/ig.png';
 import Pt from '../../pictures/pin.png';
 import Tt from '../../pictures/twit.png';
 import Tw from '../../pictures/twitch.png';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'
 
 function Header(_props) {
     return (
         <header className="header">
             <img src={Logo} alt="A logo" />
             <nav className="headerMenu">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/contact">Contact </NavLink>
-                <NavLink to="/about">About</NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/contact">Contact </NavLink>
+            <NavLink to="/about">About</NavLink>
             </nav>
             <div>
                 <nav>
