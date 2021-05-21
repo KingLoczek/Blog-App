@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Blog-App/static/css/main.30f9880d.chunk.css",
+    "main.js": "/Blog-App/static/js/main.8852775b.chunk.js",
+    "main.js.map": "/Blog-App/static/js/main.8852775b.chunk.js.map",
+    "runtime-main.js": "/Blog-App/static/js/runtime-main.579ce824.js",
+    "runtime-main.js.map": "/Blog-App/static/js/runtime-main.579ce824.js.map",
+    "static/js/2.420f9828.chunk.js": "/Blog-App/static/js/2.420f9828.chunk.js",
+    "static/js/2.420f9828.chunk.js.map": "/Blog-App/static/js/2.420f9828.chunk.js.map",
+    "index.html": "/Blog-App/index.html",
+    "precache-manifest.90282ad4c6a3d7bab9e4c0a103f30d19.js": "/Blog-App/precache-manifest.90282ad4c6a3d7bab9e4c0a103f30d19.js",
+    "service-worker.js": "/Blog-App/service-worker.js",
+    "static/css/main.30f9880d.chunk.css.map": "/Blog-App/static/css/main.30f9880d.chunk.css.map",
+    "static/js/2.420f9828.chunk.js.LICENSE.txt": "/Blog-App/static/js/2.420f9828.chunk.js.LICENSE.txt",
+    "static/media/pin.png": "/Blog-App/static/media/pin.d6054ba3.png",
+    "static/media/searchIcon.png": "/Blog-App/static/media/searchIcon.18b95dec.png",
+    "static/media/twit.png": "/Blog-App/static/media/twit.6f088317.png",
+    "static/media/twitch.png": "/Blog-App/static/media/twitch.b9e5d3bd.png",
+    "static/media/youtube.png": "/Blog-App/static/media/youtube.62f278a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.579ce824.js",
+    "static/js/2.420f9828.chunk.js",
+    "static/css/main.30f9880d.chunk.css",
+    "static/js/main.8852775b.chunk.js"
+  ]
+}
