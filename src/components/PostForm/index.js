@@ -1,12 +1,11 @@
 import React, {useState} from 'react';
 import "./style.css";
 
-
  function PostForm() {
     const Post = ({ title, author, text, }) => (
         <div>
           <p className="postTitle">{title}</p>
-    <p className="postedBy">Posted by {author} on {now.getDate()}/{now.getMonth()}/{now.getFullYear()} </p>
+          <p className="postedBy">Posted by {author} on {now.getDate()}/{now.getMonth()}/{now.getFullYear()} </p>
           <p className="postText">{text}</p>
           <hr></hr>
         </div>
@@ -33,35 +32,31 @@ import "./style.css";
         {posts.map((post) => (
           <Post title={post.title} author={post.author} text={post.text} />
         ))}
-        <div>
+        <div className="Post">
+          
           <p class="add">Add a new post</p>
-          <p>
-          <input
+            <input
               type="text"
               placeholder="Title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
             />
-            </p>
-            <p>
             <input
               type="text"
               placeholder="Author"
               value={author}
               onChange={(e) => setAuthor(e.target.value)}
             />
-          </p>
-          <p>
             <input
               type="text"
               placeholder="Text"
               value={text}
               onChange={(e) => setText(e.target.value)}
             />
-          </p>
-          <p>
+        
+          <div className="btn">
             <button onClick={onAddButtonClick}>Add</button>
-          </p>
+          </div>
         </div>
       </div>
     );
